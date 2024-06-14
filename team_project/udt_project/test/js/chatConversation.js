@@ -35,7 +35,7 @@ function addChat() {
   const coachDiv = document.createElement("div");
   coachDiv.className = "coach";
   coachDiv.innerHTML = `
-    <img src="/portfolio/team_project/udt_project/test/img/profile_2.png" alt="코치 프로필 사진">
+    <img src="/portfolio01/team_project/udt_project/test/img/profile_2.png" alt="코치 프로필 사진">
     <div class="coachTxt">
       <span>${userMessage} 답변</span>
     </div>
