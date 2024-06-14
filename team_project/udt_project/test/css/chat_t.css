@@ -1,0 +1,178 @@
+@charset "UTF-8";
+
+body {
+  min-width: 319px;
+}
+section {
+  padding: 0;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  font-size: 20px;
+}
+.fa-arrow-right-from-bracket,
+.fa-bell,
+.fa-image,
+.fa-face-smile,
+.fa-paper-plane {
+  font-size: x-large;
+}
+footer {
+  display: none;
+}
+.topBanner {
+  display: none !important;
+}
+.chatAside {
+  /* display: none; */
+  flex: 1 0 0;
+  border: 0px;
+}
+.chatAsideTopMo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 2px solid #9747ff;
+  width: 100%;
+  height: 100px;
+}
+.chatSearch {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  gap: 10px;
+}
+.chatList {
+  width: 100%;
+  padding-bottom: 60px;
+}
+.chatList > div:nth-child(2),
+.chatList > div:nth-child(4),
+.chatList > div:nth-child(6) {
+  background-color: #f4f4f4;
+}
+.chatList div {
+  width: 100%;
+  padding-right: 5px;
+  border: none;
+}
+.chatList i {
+  font-size: 1.4rem;
+}
+.chatSearchBox {
+  width: 100%;
+}
+.chatDropdown {
+  display: none;
+}
+.chatTxtBoxTop h2 {
+  width: 100%;
+}
+.chatIcoGroup {
+  display: flex;
+  justify-content: flex-end;
+}
+.chatSelectMo {
+  display: block;
+}
+.chatSelectMo {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  width: 100%;
+}
+.chatSelectMo a {
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  border: 0.0313rem solid #000;
+  border-radius: 20px;
+  padding: 7px;
+}
+.chatSelectMo a:active {
+  background-color: #f4f4f4;
+}
+.chatSearchBox {
+  position: relative;
+}
+.chatSearchBox img {
+  top: 8px;
+  right: 10px;
+}
+/* .chatMain css 시작 */
+/* 세로 쫀쫀이 구현 - vh(100vh 기준. 속 요소들 n빵 시키기) */
+.chatMain {
+  /* aside 부분과 비교를 위해 우선 none 처리 */
+  display: none;
+  border: none;
+  height: 100vh;
+}
+.chatMainSearch {
+  height: 10vh;
+}
+.chatRoomContents {
+  height: 70vh;
+  /* overflow-y: auto; */
+}
+.chatMessage {
+  height: 10vh;
+}
+.bottomNav {
+  height: 8vh;
+}
+/* ----------------------------------- */
+.chatMainSearchRightMo {
+  display: block;
+  color: #797979;
+}
+.chatMainSearch {
+  justify-content: space-between;
+}
+#chatInput {
+  height: 50px;
+  border-radius: 50px;
+}
+.chatMessage {
+  padding: 0;
+  justify-content: flex-start;
+}
+.chatMessageIco {
+  padding: 10px 10px 0 10px;
+}
+.searchContentsBox {
+  /* 중앙 정렬을 위해 임시 패딩값 지정 */
+  padding-left: 50px;
+}
+.searchContentsBox h2 {
+  font-size: 22px;
+}
+.searchContentsBox p {
+  font-size: 14px;
+}
+.searchContentsBoxTop {
+  justify-content: center;
+}
+.searchContentsBoxBottom {
+  gap: 20px;
+}
+.searchContentsBoxBottom p {
+  font-size: 12px;
+}
+.searchContentsBoxTopLeft .fa-heart,
+.chatMainSearchLeft img {
+  display: none;
+}
+.searchContentsBoxTopRight {
+  align-items: center;
+  gap: 5px;
+}
+.bottomNav {
+  display: flex;
+}
+.topNav {
+  display: none;
+}
